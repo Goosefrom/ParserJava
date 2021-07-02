@@ -1,4 +1,4 @@
-package parser;
+package com.parser;
 
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;

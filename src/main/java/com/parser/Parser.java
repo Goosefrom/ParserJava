@@ -1,7 +1,6 @@
-package parser;
+package com.parser;
 
 //jsoup is an open-source library for html pages parsing
-//import org.json.simple.JSONObject;
 import org.json.simple.JSONObject;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
@@ -76,7 +75,7 @@ public class Parser {
         HTTPParserThread thr2;
         HTTPParserThread thr3;
 
-            for (int page = 1; page <= numberOfPages; page += 3) {
+            for (int page = 1; page <= numberOfPages + 2; page += 3) {
 
 
                 //threads  for each product on page
